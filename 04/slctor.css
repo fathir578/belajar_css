@@ -1,0 +1,45 @@
+p {
+    color: blue;
+}
+
+.pink {
+    color: white;
+    background: pink;
+    padding: 5px
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-teal {
+    background: teal;
+}
+
+#header {
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+input[type=text] {
+    background: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px solid rgb(6, 205, 205);
+}
+
+/* menggnakan selector universal */
+
+* {
+    border: 1px solid grey;
+}
+
+    a:hover {
+    color: green;
+}
+
+p::first-line {
+    color: magenta;
+}
