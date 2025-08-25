@@ -1,0 +1,14 @@
+/* menambahkan gambar sebagai background */
+body {
+	background-image: url('wave.svg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.header2 {
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+}
+
+header {
+        background-color: violet;
+}
