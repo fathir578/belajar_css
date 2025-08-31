@@ -1,0 +1,43 @@
+body { font-family: sans-serif; }
+        h3 { color: #333; }
+        .container {
+            border: 2px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Contoh Satuan Absolut */
+        .px-box {
+            background-color: #f0f0f0;
+            width: 200px; /* Lebar tetap 200 piksel */
+            height: 100px; /* Tinggi tetap 100 piksel */
+            padding: 10px;
+        }
+
+        /* Contoh Satuan Relatif */
+        .persen-box {
+            background-color: #e0e0e0;
+            width: 50%; /* Lebar 50% dari container */
+            height: 50px;
+        }
+
+        .em-box {
+            font-size: 16px; /* Ukuran font elemen induk */
+            width: 10em; /* Lebar 10 kali ukuran font induk (160px) */
+            height: 5em; /* Tinggi 5 kali ukuran font induk (80px) */
+            background-color: #d0d0d0;
+        }
+
+        .rem-box {
+            font-size: 16px; /* Ukuran font elemen induk (untuk perbandingan) */
+            width: 10rem; /* Lebar 10 kali ukuran font root (biasanya 16px) */
+            height: 5rem; /* Tinggi 5 kali ukuran font root */
+            background-color: #c0c0c0;
+        }
+
+        .vh-vw-box {
+            width: 50vw; /* Lebar 50% dari lebar viewport */
+            height: 30vh; /* Tinggi 30% dari tinggi viewport */
+            background-color: #b0b0b0;
+            margin: auto; /* Untuk menengahkan elemen */
+        }
