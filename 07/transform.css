@@ -1,0 +1,11 @@
+h1 {
+            text-transform: capitalize;
+        }
+        
+        .upper {
+            text-transform: uppercase;
+        }
+
+        .lower {
+            text-transform: lowercase;
+        }

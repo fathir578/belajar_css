@@ -1,0 +1,41 @@
+header {
+        text-align: center;
+}
+
+.text-left {
+        text-align: left;
+}
+
+.text-right {
+        text-align: right;
+}
+
+.text-center {
+        text-align: center;
+}
+
+.text-justify {
+        text-align: justify;
+}
+
+/* menambahkan underline */
+
+h1 {
+        text-decoration: underline;
+}
+
+p {
+        line-height: 1.5;
+}
+
+.upperline {
+        text-decoration: overline;
+}
+
+.underline {
+        text-decoration: underline;
+}
+
+.strike {
+        text-decoration: line-through;
+        }
