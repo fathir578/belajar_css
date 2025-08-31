@@ -1,0 +1,10 @@
+blockquote {
+            font-style: italic;
+            font-size: larger;
+            color: dodgerblue;
+        }
+        cite {
+            font-size: small;
+            font-style: normal;
+            color: fuchsia;
+        }
