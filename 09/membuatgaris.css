@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { margin-bottom: 30px; padding: 20px; border-radius: 8px; background-color: #f9f9f9; }
+
+        /* Contoh Border */
+        .contoh-border-shorthand { border: 2px solid black; padding: 10px; }
+        .garis-putus-putus { border: 3px dashed blue; padding: 10px; }
+        .sudut-melengkung { border: 2px solid #3498db; border-radius: 10px; padding: 10px; }
+        .lingkaran-sempurna { width: 100px; height: 100px; border: 2px solid #e74c3c; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+
+        /* Contoh HR */
+        hr.garis-kustom { border: none; height: 2px; background-color: #333; margin: 20px 0; }
+
+        /* Contoh Pseudoelemen */
+        .judul-bergaris::after { content: ""; display: block; width: 50px; height: 3px; background-color: #007bff; margin-top: 5px; }
+
+        /* Contoh Box-shadow */
+        .garis-shadow { box-shadow: 0 2px 0 0 red; padding-bottom: 5px; }
